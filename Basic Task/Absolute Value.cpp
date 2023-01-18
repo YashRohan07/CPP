@@ -18,3 +18,22 @@ int main()
     }
 }
 
+/* 
+
+#include<iostream>
+#include<cmath>   // Header file for Absolute Function
+using namespace std;
+
+int main(){
+
+    int num;
+    cout<<"Enter an Integer: ";
+    cin>>num;
+
+    int result = abs(-num);  // Absolute Function
+
+    cout<<"Result Of Absolute Value: "<<result;
+}
+
+*/
+
