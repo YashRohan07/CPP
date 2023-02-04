@@ -1,3 +1,5 @@
+//Without While
+
 #include<iostream>
 using namespace std;
 
@@ -35,5 +37,56 @@ int main(){
         break;
    }
 }
+
+
+/*
+
+// With While 
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    while(true) 
+    {
+    float num1,num2;
+    cout<<"Enter two Number: ";
+    cin>>num1>>num2;
+
+    char op;
+    cout<<"Enter a Operator:";
+    cin>>op;
+
+   switch(op)
+   {
+    case '+':
+    cout<<"Addition: "<<num1+num2<<endl;
+    break;
+
+    case '-':
+    cout<<"Subtraction: "<<num1-num2<<endl;
+    break;
+
+    case '*':
+    cout<<"Multiplication: "<<num1*num2<<endl;
+    break;
+
+    case '/':
+    cout<<"Division: "<<num1/num2<<endl;
+    break;
+
+
+    default:
+        cout<<"Enter Another Operator: "<<endl;
+        break;
+   }
+    }
+
+
+}
+
+
+
+*/
 
 
